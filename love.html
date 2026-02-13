@@ -4,7 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I Love Youuuuu</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at top, #ffd6e8, #ff6fa8 45%, #ff3f82 100%);
+        color: #7d0041;
+      }
+      .card {
+        width: min(92vw, 620px);
+        text-align: center;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 24px;
+        padding: 2.2rem 1.5rem;
+        box-shadow: 0 20px 60px rgba(125, 0, 65, 0.2);
+      }
+      h1 { margin-top: 0; font-size: clamp(1.8rem, 3vw, 2.4rem); }
+      .romantic-gif {
+        width: min(100%, 420px);
+        border-radius: 18px;
+        box-shadow: 0 12px 25px rgba(125, 0, 65, 0.25);
+      }
+    </style>
   </head>
   <body>
     <main class="card success">
